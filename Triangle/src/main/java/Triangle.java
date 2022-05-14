@@ -1,7 +1,7 @@
 
 import java.text.DecimalFormat;
 
-class TriangleTester {
+class Triangle {
 
     public boolean isTriangle(int a, int b, int c) {
         boolean result = true;

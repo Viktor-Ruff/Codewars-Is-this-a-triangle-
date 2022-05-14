@@ -5,14 +5,14 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-class TriangleTesterTest {
+class TriangleTest {
 
-    private TriangleTester triangleTester;
+    private Triangle triangleTester;
 
     @BeforeEach
     public void startUp() {
         System.out.println("Test is START");
-        triangleTester = new TriangleTester();
+        triangleTester = new Triangle();
     }
 
     @AfterEach
