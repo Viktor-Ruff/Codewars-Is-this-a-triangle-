@@ -5,8 +5,6 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class TriangleTesterTest {
 
     private TriangleTester triangleTester;
@@ -26,7 +24,6 @@ class TriangleTesterTest {
     void testTriangleTester1() {
         Assertions.assertEquals(true, triangleTester.isTriangle(100, 100, 100));
     }
-
 
     @DisplayName("Check Exercise8")
     @ParameterizedTest
